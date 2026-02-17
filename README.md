@@ -1,4 +1,4 @@
-This repository is dedicated to exploring advanced Kotlin Multiplatform (KMP) concepts and best practices.
+This repository is dedicated to exploring advanced Kotlin Multiplatform (CMP) concepts and best practices.
 
 🎯 Purpose
 
@@ -20,4 +20,4 @@ Jetpack Compose
 
 📚 Goal
 
-Build a solid understanding of advanced KMP features
+Build a solid understanding of advanced CMP features
