@@ -1,3 +1,4 @@
+import com.codingfeline.buildkonfig.compiler.FieldSpec
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -6,6 +7,14 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.buildkonfig.plugin)
+}
+
+buildkonfig {
+    packageName = "com.marcelo.sampleappkmp"
+    defaultConfigs {
+        buildConfigField(FieldSpec.Type.STRING, "API_KEY", "Testes")
+    }
 }
 
 kotlin {
